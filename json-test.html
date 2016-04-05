@@ -4,7 +4,7 @@
 <body>
 JSON test. Open Developer Tools and check console..
 <script>
- /*   function getJSONData(path, callback) {
+    function getJSONData(path, callback) {
     var httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === 4) {
@@ -17,7 +17,7 @@ JSON test. Open Developer Tools and check console..
     httpRequest.open('GET', path);
     httpRequest.send(); 
 }
-*/
+
 
 getJSONData('http://localhost/jstrainee/json.php', function(data){
     console.log(data);
