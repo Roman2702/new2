@@ -77,7 +77,6 @@ for (var i = 0; i < numSheets; i++) {
         document.getElementsByTagName("table")[i].setAttribute("class", "visible");}
         else {document.getElementsByTagName("table")[i].setAttribute("class", "hidden");}
 }
-console.log(numSheets);
 }
 //add new sheet
 function addSheet(){
