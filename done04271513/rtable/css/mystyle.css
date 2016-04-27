@@ -1,0 +1,65 @@
+body {width: 1000px;}
+table {table-layout: fixed}
+table {border-collapse: collapse; width: 100%;}
+td, th {
+	height: 18px; width: 84px; color: grey; text-align: center;
+	background-color: #e0ebeb; border: 1px solid #999;
+}
+td.notIndex{background-color: #eff5f5; color: black; text-align: right;
+	font-family: arial; font-size: 14px;}
+	input {border: none;    width: 80px;    font-size: 14px;    padding: 2px;}
+	td.notIndex:hover {background-color: #eee;}
+	input:focus {background-color: lightgrey;text-align: left;}
+	input:not(focus) {text-align: right;}
+	input.activeData {background-color: lightgreen;}
+
+
+
+/*#mainTable tr:hover{background-color:#555; border: 1px solid red;}
+table, td, th {
+    border: 1px solid #999;
+    }*/
+
+
+
+    div#myTable {
+    	/*overflow: scroll;*/
+    	overflow-y:auto;
+    	/*border: 1px solid grey;*/
+    	width: 800px; height: 600px;
+    	border: 1px solid #999;
+    	float: left;
+
+    }
+    div#myAddCol {
+    	float: left;
+    	width: 20px; /*height: 100px;*/
+    }
+
+    div#myAddRow {
+        clear: left;
+    }
+
+    div#myTableHeader{
+    	border: 1px solid #101010;width: 800px;
+    }
+    th {height: 20px; width: 84px;}
+
+    *.hidden {display: none;}
+
+    span{
+        background-color: #eee;float: left;margin-top: 5px;
+    }
+    #stringOfFunction{
+        border: 1px solid grey;width: 700px; height: 27px; text-align: left;
+        float: left; margin-left: 5px;margin-bottom: 5px; margin-top: 5px;
+        padding-left: 5px; font-family: arial; font-size: 14px; color: grey;
+    }
+
+    #inputFormula{
+        width: 690px;
+    }
+
+#sheetSwitch{
+    width: 800px;
+}
